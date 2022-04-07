@@ -1,0 +1,27 @@
+:root {
+    --text-color: #251d1e;
+    --body-color: #e2aaaa;
+}
+
+body.dark-theme {
+    --body-color: #3f3738;
+    --text-color: #fefbfb;
+}
+
+.change-theme {
+    position: absolute;
+    right: 1.5rem;
+    top: 2.2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+.ui-dialog 
+{
+position:fixed;
+}
